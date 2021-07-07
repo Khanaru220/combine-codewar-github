@@ -2,4 +2,5 @@
 **code formart**: add backticks `` `code` ``  
 **bold**: Ctrl + B  
 
+Press `Raw` to see source code of .md  
 **Full style**: https://www.markdownguide.org/basic-syntax

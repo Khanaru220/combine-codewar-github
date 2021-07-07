@@ -19,17 +19,17 @@ function likes(nameArray) {
   } else if (nameArray.length === 1) {
     console.log(`${nameArray[0]} likes this`);
   } else if (nameArray.length === 2) {
-    console.log(`${nameArray[0]} and ${nameArray[1]} likes this`);
+    console.log(`${nameArray[0]} and ${nameArray[1]} like this`);
   } else if (nameArray.length === 3) {
     console.log(
-      `${nameArray[0]}, ${nameArray[1]} and ${nameArray[2]} likes this`
+      `${nameArray[0]}, ${nameArray[1]} and ${nameArray[2]} like this`
     );
   } else {
     console.log(
       // count the left items to display 'number others'
       `${nameArray[0]}, ${nameArray[1]} and ${
         nameArray.length - 2
-      } others likes this`
+      } others like this`
     );
   }
 }

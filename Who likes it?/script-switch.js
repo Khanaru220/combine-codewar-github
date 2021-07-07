@@ -1,7 +1,7 @@
 'use strict';
 
 function likes(names) {
-  // Posible cases
+  // Possible cases
   // 1. Check [empty] - [no one likes this]
   // 2. check [1 like] - [... likes this]
   // 3. check [2 like] - [... and ... likes this]

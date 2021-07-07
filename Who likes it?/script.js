@@ -8,7 +8,7 @@ function likes(nameArray) {
   // 4. check [3 like] - [..., ... and ... likes this]
   // 5. check [more than 3] - [..., ... and 99 others like this]
 
-  // Sub-problem
+  // Sub-problems
   // 1. pass array into parameter
   // 2. counting number items in array
   // 3. check condition with number items

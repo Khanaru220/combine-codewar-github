@@ -9,10 +9,9 @@ function likes(nameArray) {
   // 5. check [more than 3] - [..., ... and 99 others like this]
 
   // Sub-problems
-  // 1. pass array into parameter
-  // 2. counting number items in array
-  // 3. check condition with number items
-  // 4. display text
+  // 1. counting number items in array
+  // 2. check condition with number items
+  // 3. display text
 
   if (nameArray.length === 0) {
     console.log(`no one likes this`);

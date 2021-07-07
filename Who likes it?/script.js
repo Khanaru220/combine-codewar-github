@@ -1,6 +1,6 @@
 'use strict';
 
-function likes(nameArray) {
+function likes(names) {
   // Posible cases
   // 1. Check [empty] - [no one likes this]
   // 2. check [1 like] - [... likes this]
@@ -13,23 +13,17 @@ function likes(nameArray) {
   // 2. check condition with number items
   // 3. display text
 
-  if (nameArray.length === 0) {
-    console.log(`no one likes this`);
-  } else if (nameArray.length === 1) {
-    console.log(`${nameArray[0]} likes this`);
-  } else if (nameArray.length === 2) {
-    console.log(`${nameArray[0]} and ${nameArray[1]} like this`);
-  } else if (nameArray.length === 3) {
-    console.log(
-      `${nameArray[0]}, ${nameArray[1]} and ${nameArray[2]} like this`
-    );
+  if (names.length === 0) {
+    return `no one likes this`;
+  } else if (names.length === 1) {
+    return`${names[0]} likes this`;
+  } else if (names.length === 2) {
+    return`${names[0]} and ${names[1]} like this`;
+  } else if (names.length === 3) {
+    return `${names[0]}, ${names[1]} and ${names[2]} like this`;
   } else {
-    console.log(
       // count the left items to display 'number others'
-      `${nameArray[0]}, ${nameArray[1]} and ${
-        nameArray.length - 2
-      } others like this`
-    );
+    return `${names[0]}, ${names[1]} and ${names.length - 2} others like this`;
   }
 }
 // Test-display
